@@ -33,6 +33,6 @@ export const team: TeamMember[] = [
     name: "Bente van der Meijden",
     role: "Core Team",
     bio: "Part of the founding team, spanning clinical and research work.",
-    photo: "/images/team/bente-van-der-meijden.jpg",
+    photo: "/images/team/bente-van-der-meijden.JPG",
   },
 ];
