@@ -1,0 +1,47 @@
+export function IconSites() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <path d="M12 21C12 21 4 15.5 4 9.8C4 6.6 6.4 4.5 9 4.5C10.5 4.5 11.6 5.2 12 6.2C12.4 5.2 13.5 4.5 15 4.5C17.6 4.5 20 6.6 20 9.8C20 15.5 12 21 12 21Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function IconChildren() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <circle cx="8.5" cy="7.5" r="2.5" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="16" cy="9" r="2" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M3.5 19C3.5 15.5 5.7 13 8.5 13C10.7 13 12.5 14.4 13.2 16.4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M13 19C13 16 14.7 14 16 14C18.2 14 20 16.2 20 19" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function IconTraining() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <path d="M2 8L12 4L22 8L12 12L2 8Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M6 10.5V15C6 15 8.5 17 12 17C15.5 17 18 15 18 15V10.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function IconBadge() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="9" r="5.5" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M9 13.5L7.5 20L12 17.5L16.5 20L15 13.5" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M9.5 9L11 10.5L14.5 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function IconAudience() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <path d="M3 10V14H6.5L11 17.5V6.5L6.5 10H3Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M15 9C16 9.8 16.5 10.8 16.5 12C16.5 13.2 16 14.2 15 15" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M18 6.5C19.8 8 20.8 9.9 20.8 12C20.8 14.1 19.8 16 18 17.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  );
+}

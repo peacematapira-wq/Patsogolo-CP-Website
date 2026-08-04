@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #1C1C1C;
+  --color-lake: #308484;
+  --color-lake-deep: #015430;
+  --color-sun: #A2C8C8;
+  --color-sun-soft: #A2C8C8;
+  --color-clay: #6B3C30;
+  --color-clay-deep: #583127;
+  --color-sand: #DD9A88;
+  --color-sand-deep: #C28878;
+  --color-sand-soft: #F0D2C9;
+  --color-paper: #F6F1E4;
+  --color-paper-dim: #EDE6D3;
+  --color-leaf: #015430;
+}
+
+@theme inline {
+  --color-ink: var(--color-ink);
+  --color-lake: var(--color-lake);
+  --color-lake-deep: var(--color-lake-deep);
+  --color-sun: var(--color-sun);
+  --color-sun-soft: var(--color-sun-soft);
+  --color-clay: var(--color-clay);
+  --color-clay-deep: var(--color-clay-deep);
+  --color-sand: var(--color-sand);
+  --color-sand-deep: var(--color-sand-deep);
+  --color-sand-soft: var(--color-sand-soft);
+  --color-paper: var(--color-paper);
+  --color-paper-dim: var(--color-paper-dim);
+  --color-leaf: var(--color-leaf);
+
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "Work Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+.eyebrow::before {
+  content: "";
+  width: 22px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.55;
+  display: inline-block;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+  html { scroll-behavior: auto; }
+}
+
+@keyframes scroll-x {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.sites-track {
+  animation: scroll-x 28s linear infinite;
+  width: max-content;
+}
+
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in {
+  animation: fadein 0.35s ease;
+}
