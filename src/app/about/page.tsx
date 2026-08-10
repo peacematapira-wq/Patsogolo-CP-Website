@@ -10,8 +10,8 @@ import PathTimeline from "@/components/ui/PathTimeline";
 import { originStory, impactStats } from "@/data/timeline";
 
 const clinicPhotos = [
-  { src: "/images/clinic-1.JPG", alt: "One of Patsogolo CP Foundation's clinic sites in Mangochi District" },
-  { src: "/images/clinic-2.JPG", alt: "One of Patsogolo CP Foundation's clinic sites in Mangochi District" },
+  { src: "/images/clinic-1.jpg", alt: "One of Patsogolo CP Foundation's clinic sites in Mangochi District" },
+  { src: "/images/clinic-2.jpg", alt: "One of Patsogolo CP Foundation's clinic sites in Mangochi District" },
 ];
 
 export const metadata: Metadata = { title: "About Us — Patsogolo CP Foundation" };

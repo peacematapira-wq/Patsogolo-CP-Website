@@ -51,7 +51,7 @@ export default function NewsPage() {
               );
             })}
           </Reveal>
-          <p className="text-[13.5px] text-ink/45 mt-8 max-w-[560px] leading-relaxed">
+          <p className="text-[13.5px] text-ink/45 mt-8 max-w-140 leading-relaxed">
             Photos appear automatically once added to <code className="bg-black/5 px-1.5 py-0.5 rounded">public/images/news/</code> with the matching filename — see <code className="bg-black/5 px-1.5 py-0.5 rounded">src/data/news.ts</code>.
           </p>
         </Container>

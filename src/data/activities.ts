@@ -53,7 +53,7 @@ export const activities: Activity[] = [
     tag: "Training",
     description:
       "Ongoing training and mentorship for Health Surveillance Assistants and clinicians across 14 health centres and 2 community hospitals.",
-    image: "/images/health_worker_training.JPG",
+    image: "/images/health_worker_training.jpg",
     imageAlt: "Patsogolo CP Foundation team marking World CP Day",
   },
   {
@@ -69,7 +69,7 @@ export const activities: Activity[] = [
     tag: "Clinical care",
     description:
       "Assessments and basic teacher training at daycare centres and a government primary school, plus an advisory role at a special-needs daycare.",
-    image: "/images/clinical_care_devices.JPG",
+    image: "/images/clinical_care_devices.jpg",
     imageAlt: "Caregivers with children at a Patsogolo CP Foundation community event",
   },
 ];
