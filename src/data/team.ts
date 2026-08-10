@@ -12,7 +12,7 @@ export const team: TeamMember[] = [
     name: "Bente van der Meijden",
     role: "PhD · Medical Doctor & Project Coordinator",
     bio: "Coordinates project delivery and brings clinical medical expertise to our multidisciplinary model.",
-    photo: "/images/team/bente-van-der-meijden.jpg",
+    photo: "/images/team/bente-van-der-meijden.JPG",
   },
   {
     initials: "AC",

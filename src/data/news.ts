@@ -30,7 +30,7 @@ export const news: NewsItem[] = [
     excerpt:
       "Our caregiver dramaplay group performed at Makawa Primary School for our second World CP Day, bringing our stigma-reduction advocacy directly into a school community.",
     tag: "Awareness",
-    image: "/images/news/world-cp-day-2026.JPG",
+    image: "/images/news/world-cp-day-2026.jpg",
   },
   {
     date: "2025",
