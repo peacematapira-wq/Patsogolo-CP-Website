@@ -9,22 +9,6 @@ export type NewsItem = {
 // Ordered most recent first.
 export const news: NewsItem[] = [
   {
-    date: "2026",
-    title: "CP QoL-Child questionnaire accepted for the Malawi Medical Journal",
-    excerpt:
-      "Our quality-of-life questionnaire — the first such tool validated for use in Malawi — has been accepted for publication, a milestone for CP research nationally.",
-    tag: "Research",
-    image: "/images/news/cp-qol-questionnaire.jpg",
-  },
-  {
-    date: "April 2026",
-    title: "Autism and ADHD clinic launched",
-    excerpt:
-      "After training nine health workers, we launched a dedicated clinic extending our multidisciplinary model to autism and ADHD care.",
-    tag: "Clinical Care",
-    image: "/images/news/autism-adhd-clinic.jpg",
-  },
-  {
     date: "July 2026",
     title: "Awareness drama at Makawa Primary School",
     excerpt:
@@ -33,12 +17,28 @@ export const news: NewsItem[] = [
     image: "/images/news/world-cp-day-2026.jpg",
   },
   {
+    date: "2026",
+    title: "CP QoL-Child questionnaire accepted for the Malawi Medical Journal",
+    excerpt:
+      "Our quality-of-life questionnaire — the first such tool validated for use in Malawi — has been accepted for publication, a milestone for CP research nationally.",
+    tag: "Research",
+    image: "/images/news/cp-qol-questionnaire.jpeg",
+  },
+  {
+    date: "April 2026",
+    title: "African Disability Summit 2026",
+    excerpt:
+      "Our team attended the African Disability Summit in Lilongwe, Malawi, to share our work and learn from other organisations across the continent.",
+    tag: "Clinical Care",
+    image: "/images/news/african-disability-summit-2026.jpg",
+  },
+  {
     date: "2025",
     title: "CP Cookbook adopted into UNICEF's resource bank",
     excerpt:
       "Following publication in Field Exchange issue 77, our safe-feeding cookbook has drawn interest from partner organisations in Tanzania and India.",
     tag: "Nutrition",
-    image: "/images/news/cp-cookbook.jpg",
+    image: "/images/news/cp-cookbook.jpeg",
   },
   {
     date: "2025",
