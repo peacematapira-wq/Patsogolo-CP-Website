@@ -34,7 +34,7 @@ const channels = [
   },
   {
     label: "World CP Day",
-    value: "2nd edition",
+    value: "3rd edition",
     description:
       "First marked in 2024 and now in its second year, our annual World CP Day brings children, caregivers and community leaders together.",
     icon: (

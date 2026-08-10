@@ -25,7 +25,6 @@ export default function Footer() {
                 ["About Us", "/about"],
                 ["Vision & Mission", "/vision-mission"],
                 ["Our Programs", "/programs"],
-                ["Projects", "/projects"],
                 ["News", "/news"],
               ].map(([label, href]) => (
                 <li key={href}>

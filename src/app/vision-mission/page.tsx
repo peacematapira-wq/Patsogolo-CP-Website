@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "Vision & Mission — Patsogolo CP Fo
 
 const values = [
   {
-    title: "Whole-child care",
+    title: "Holistic care",
     description: "A child is never just a diagnosis. Every plan considers physiotherapy, nutrition, medicine and family context together.",
   },
   {
@@ -52,7 +52,7 @@ export default function VisionMissionPage() {
 
       <section className="py-25 bg-ink text-paper">
         <Container>
-          <Reveal as="div" className="max-w-[660px] mb-13">
+          <Reveal as="div" className="max-w-165 mb-13">
             <div className="eyebrow text-sun-soft mb-4">What guides the work</div>
             <h2 className="font-display font-bold text-[clamp(29px,3.2vw,42px)] leading-tight tracking-tight">Our values</h2>
           </Reveal>

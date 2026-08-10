@@ -20,7 +20,7 @@ export default function TeamPage() {
 
       <section className="py-25">
         <Container>
-          <Reveal as="div" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <Reveal as="div" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {team.map((m) => {
               const hasPhoto = m.photo && fs.existsSync(path.join(process.cwd(), "public", m.photo));
               return (

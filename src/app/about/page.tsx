@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import fs from "fs";
+import path from "path";
 import Container from "@/components/ui/Container";
 import PageBanner from "@/components/ui/PageBanner";
 import SectionHead from "@/components/ui/SectionHead";
 import Reveal from "@/components/ui/Reveal";
 import PathTimeline from "@/components/ui/PathTimeline";
 import { originStory, impactStats } from "@/data/timeline";
+
+const clinicPhotos = [
+  { src: "/images/clinic-1.JPG", alt: "One of Patsogolo CP Foundation's clinic sites in Mangochi District" },
+  { src: "/images/clinic-2.JPG", alt: "One of Patsogolo CP Foundation's clinic sites in Mangochi District" },
+];
 
 export const metadata: Metadata = { title: "About Us — Patsogolo CP Foundation" };
 
@@ -39,13 +46,22 @@ export default function AboutPage() {
           </Reveal>
 
           <Reveal as="div" className="flex flex-col gap-6">
-            <div className="relative w-full aspect-[4/5] max-h-[420px] rounded-2xl overflow-hidden bg-paper-dim border border-black/10">
-              <Image
-                src="/images/care-illustration.png"
-                alt="Illustration of a caregiver supporting a child with a walker, with icons for nutrition, monitoring, mobility and clinical care"
-                fill
-                className="object-contain p-4"
-              />
+            <div className="grid grid-cols-2 gap-3">
+              {clinicPhotos.map((p, i) => {
+                const exists = fs.existsSync(path.join(process.cwd(), "public", p.src));
+                return (
+                  <div key={i} className="relative aspect-4/5 rounded-2xl overflow-hidden border border-black/10 bg-paper-dim">
+                    {exists ? (
+                      <Image src={p.src} alt={p.alt} fill className="object-cover" />
+                    ) : (
+                      <div className="w-full h-full flex flex-col items-center justify-center text-center p-4 gap-2 border-2 border-dashed border-black/15">
+                        <span className="font-mono text-[10.5px] uppercase tracking-wide text-ink/40">Clinic photo</span>
+                        <span className="font-mono text-[10px] text-ink/35">Coming soon</span>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
             <div className="flex flex-col gap-px bg-black/10 border border-black/10 rounded-2xl overflow-hidden">
               {originStory.map((o) => (

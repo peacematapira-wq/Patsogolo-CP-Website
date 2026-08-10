@@ -76,14 +76,9 @@ export const pillars: Pillar[] = [
           "Daycare centres and a primary school assessed and trained, freeing caregivers — mostly mothers — to pursue income-generating work.",
       },
       {
-        title: "Caregiver economic empowerment",
-        description:
-          "Support groups oriented around village savings and income generation, responding directly to caregivers being abandoned or unable to farm.",
-      },
-      {
         title: "Networks & policy",
         description:
-          "Founding member of Malawi's Neuro-Developmental Disorders Network, engaging government toward national standards for CP care.",
+          "We are building networks with government and other institutions, working toward national standards for CP care — including through Malawi's Neuro-Developmental Disorders Network.",
       },
     ],
   },
@@ -98,11 +93,6 @@ export const pillars: Pillar[] = [
         title: "Early ID & referral training",
         description:
           "Health Surveillance Assistants, nurses and volunteers across 20 health centres trained to recognise early signs and refer promptly.",
-      },
-      {
-        title: "Mentorship",
-        description:
-          "Each trained facility is paired with a physiotherapy mentor who visits in person once children with CP are identified — working real cases, not just classroom theory.",
       },
       {
         title: "Specialised clinical training",
@@ -134,34 +124,29 @@ export const pillars: Pillar[] = [
       "Every clinical decision at Patsogolo is backed by data we've gathered ourselves — from a 2023 baseline study to our first PhD trajectory, launched in 2026 to strengthen the evidence behind district-level CP care.",
     components: [
       {
-        title: "Baseline & outcomes research",
+        title: "Qualitative research",
         description:
-          "Our 2023 baseline study on epilepsy, malnutrition and feeding difficulties shaped the multidisciplinary model, and continues to be updated as new data comes in.",
+          "In-depth interviews and focus groups with caregivers and stakeholders, capturing lived experience alongside our clinical data.",
       },
       {
-        title: "EDACS validation",
+        title: "Tools",
         description:
-          "A validation study for the Eating and Drinking Ability Classification System in Malawi, begun in 2025 in response to widespread feeding difficulties among children with CP.",
+          "Development and validation of practical tools — the CP Quality of Life questionnaire, our CP cookbook, and the EDACS feeding and swallowing assessment.",
       },
       {
-        title: "CP QoL-Child questionnaire",
+        title: "Nutrition",
         description:
-          "The first quality-of-life tool validated for children with CP in Malawi, accepted for publication in the Malawi Medical Journal.",
+          "Research into malnutrition prevalence among children with CP, alongside prevalence data from our Nutrition Rehabilitation Unit (NRU).",
       },
       {
-        title: "PhD research trajectory",
-        description:
-          "Our first PhD trajectory, launched in 2026, examining CP care in Mangochi in depth to strengthen the evidence behind our district-level model.",
-      },
-      {
-        title: "Electronic patient records",
+        title: "Electronic patient file",
         description:
           "Our electronic patient records system gives us structured, longitudinal data across all four clinic sites to track outcomes over time.",
       },
       {
-        title: "Academic collaboration",
+        title: "PhD collaboration",
         description:
-          "New partnerships with hospitals and academic institutions extend our research capacity and connect Mangochi's data to national and international CP research.",
+          "Our first PhD trajectory, undertaken in collaboration with academic and hospital partners, examining CP care in Mangochi in depth.",
       },
     ],
   },

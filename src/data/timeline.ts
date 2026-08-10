@@ -33,7 +33,7 @@ export const timeline: TimelinePoint[] = [
   {
     year: "2026",
     title: "Research & collaboration",
-    description: "Autism/ADHD clinic launched. Our first PhD trajectory begins, alongside school assessments for inclusion and new collaborations with other hospitals and institutions.",
+    description: "Autism/ADHD clinic launched. School assessments for inclusion and new collaborations with other hospitals and institutions.",
   },
 ];
 

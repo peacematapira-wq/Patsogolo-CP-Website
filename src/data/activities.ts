@@ -33,7 +33,7 @@ export const activities: Activity[] = [
     imageAlt: "Caregivers and children gathered indoors during a Patsogolo CP Foundation clinic day",
   },
   {
-    title: "Caregiver dramaplay performances",
+    title: "Awareness campaigns on world CP day",
     tag: "Awareness",
     description:
       "Monthly physical and radio performances written and staged by our twelve-member caregiver dramaplay group, each followed by a community conversation.",
@@ -41,7 +41,7 @@ export const activities: Activity[] = [
     imageAlt: "A caregiver holding an awareness placard at a Patsogolo CP Foundation event",
   },
   {
-    title: "Maternity ward health talks",
+    title: "Cooking book handouts and nutrition education",
     tag: "Awareness",
     description:
       "Weekly sessions in Mangochi Hospital's maternity and nursery wards — which see roughly 1,200 deliveries a month — on early warning signs of CP.",
@@ -53,11 +53,11 @@ export const activities: Activity[] = [
     tag: "Training",
     description:
       "Ongoing training and mentorship for Health Surveillance Assistants and clinicians across 14 health centres and 2 community hospitals.",
-    image: "/images/IMG_3303.jpeg",
+    image: "/images/health_worker_training.JPG",
     imageAlt: "Patsogolo CP Foundation team marking World CP Day",
   },
   {
-    title: "Assistive device fittings",
+    title: "Clinical care nutrition",
     tag: "Clinical care",
     description:
       "Custom CP chairs, standing frames, rollators and modified feeding utensils, produced with a local carpentry workshop and MAP-trained artisans.",
@@ -65,11 +65,11 @@ export const activities: Activity[] = [
     imageAlt: "A caregiver with a child at a Patsogolo CP Foundation clinic",
   },
   {
-    title: "School inclusion visits",
-    tag: "Awareness",
+    title: "Clinical care devices",
+    tag: "Clinical care",
     description:
       "Assessments and basic teacher training at daycare centres and a government primary school, plus an advisory role at a special-needs daycare.",
-    image: "/images/IMG_3305.jpeg",
+    image: "/images/clinical_care_devices.JPG",
     imageAlt: "Caregivers with children at a Patsogolo CP Foundation community event",
   },
 ];

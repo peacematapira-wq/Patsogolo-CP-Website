@@ -25,10 +25,10 @@ export default function GalleryPage() {
       <section className="py-25">
         <Container>
           <Reveal as="div" className="relative rounded-2xl overflow-hidden border border-black/10 mb-6">
-            <div className="relative w-full aspect-[16/10] sm:aspect-[21/9]">
+            <div className="relative w-full aspect-16/10 sm:aspect-21/9">
               <Image src={featuredActivity.image!} alt={featuredActivity.imageAlt || featuredActivity.title} fill className="object-cover" />
             </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+            <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/70 to-transparent p-6">
               <span className="font-mono text-[12px] text-sun-soft uppercase tracking-wide">{featuredActivity.tag}</span>
               <h3 className="text-paper text-lg font-display font-bold mt-1">{featuredActivity.title}</h3>
             </div>
@@ -49,7 +49,7 @@ export default function GalleryPage() {
                   <path d="M17 9.5L21 7V17L17 14.5" stroke="#6B3C30" strokeWidth="1.6" strokeLinejoin="round" />
                 </svg>
                 <span className="text-sm font-medium text-ink/60">Video coming soon</span>
-                <span className="font-mono text-[11.5px] text-ink/40 max-w-[360px] leading-relaxed">
+                <span className="font-mono text-[11.5px] text-ink/40 max-w-90 leading-relaxed">
                   Drop the file at <code className="bg-black/5 px-1.5 py-0.5 rounded">public{featuredVideo.src}</code> and it will appear here automatically.
                 </span>
               </div>
@@ -66,7 +66,7 @@ export default function GalleryPage() {
                   {exists ? (
                     <>
                       <Image src={a.image!} alt={a.imageAlt || a.title} fill className="object-cover" />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+                      <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/10 to-transparent" />
                       <div className="absolute bottom-0 left-0 right-0 p-4">
                         <span className="font-mono text-[10px] text-sun-soft uppercase tracking-wide">{a.tag}</span>
                         <h4 className="text-paper text-[13px] font-semibold leading-snug mt-0.5">{a.title}</h4>
@@ -84,7 +84,7 @@ export default function GalleryPage() {
             })}
           </Reveal>
 
-          <p className="text-[13.5px] text-ink/45 mt-8 max-w-[560px] leading-relaxed">
+          <p className="text-[13.5px] text-ink/45 mt-8 max-w-140 leading-relaxed">
             Have photos or video from these activities? Send them to us and we&rsquo;ll add them here — see the Contact page to get in touch.
           </p>
         </Container>
