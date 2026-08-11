@@ -38,9 +38,9 @@ export const team: TeamMember[] = [
   {
     initials: "PM",
     name: "Peace Stanley Matapira",
-    role: "Clinical Dietitian & IT Specialist",
+    role: "Dietitian & IT Specialist",
     bio: "Nutrition and feeding support for children with CP and IT support.",
-    photo: "/images/team/peace-stanley-matapira.jpg",
+    photo: "/images/team/peace-stanley-matapira.jpeg",
   },
   {
     initials: "MM",

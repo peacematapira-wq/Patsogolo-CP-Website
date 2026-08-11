@@ -6,14 +6,14 @@ import InstagramIcon from "@/components/ui/InstagramIcon";
 export default function Footer() {
   return (
     <footer className="bg-ink text-paper/70 pt-16 pb-8">
-      <div className="max-w-[1240px] mx-auto px-6 lg:px-8">
+      <div className="max-w-310 mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-paper/10">
           <div>
             <Link href="/" className="flex items-center gap-2.5 text-paper mb-3.5">
-              <Image src="/images/logo.jpg" alt={`${site.name} logo`} width={30} height={30} className="rounded-full object-cover" />
+              <Image src="/images/logo.png" alt={`${site.name} logo`} width={30} height={30} className="rounded-full object-cover" />
               <span className="font-display font-bold text-[17px]">{site.shortName}</span>
             </Link>
-            <p className="text-sm text-paper/55 max-w-[280px] leading-relaxed">
+            <p className="text-sm text-paper/55 max-w-70 leading-relaxed">
               Care, inclusion and empowerment for children with cerebral palsy, their families and communities — {site.district}.
             </p>
           </div>

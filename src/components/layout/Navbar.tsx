@@ -12,11 +12,11 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-lake-deep/95 backdrop-blur-md shadow-[0_1px_0_rgba(246,241,228,0.08)] py-3">
-      <div className="max-w-[1240px] mx-auto px-6 lg:px-8">
+      <div className="max-w-310 mx-auto px-6 lg:px-8">
         <nav className="flex items-center justify-between gap-6">
           <Link href="/" className="flex items-center gap-2.5 text-paper shrink-0">
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo.png"
               alt={`${site.name} logo`}
               width={34}
               height={34}
@@ -46,7 +46,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3">
             <Link
               href="/donate"
-              className="hidden sm:inline-flex items-center font-mono text-[13px] font-medium bg-sand text-ink px-[18px] py-[9px] rounded-full hover:bg-sand-deep transition-colors"
+              className="hidden sm:inline-flex items-center font-mono text-[13px] font-medium bg-sand text-ink px-4.5 py-2.25 rounded-full hover:bg-sand-deep transition-colors"
             >
               Donate
             </Link>
@@ -77,7 +77,7 @@ export default function Navbar() {
             <Link
               href="/donate"
               onClick={() => setOpen(false)}
-              className="mt-3 text-center font-mono text-[13px] font-medium bg-sand text-ink px-[18px] py-[10px] rounded-full"
+              className="mt-3 text-center font-mono text-[13px] font-medium bg-sand text-ink px-4.5 py-2.5 rounded-full"
             >
               Donate
             </Link>

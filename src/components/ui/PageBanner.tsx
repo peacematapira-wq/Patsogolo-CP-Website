@@ -11,7 +11,7 @@ export default function PageBanner({
   description?: string;
 }) {
   return (
-    <section className="bg-lake-deep text-paper pt-[150px] pb-14">
+    <section className="bg-lake-deep text-paper pt-37.5 pb-14">
       <Container>
         <Reveal as="div" className="eyebrow text-sun-soft mb-4">
           {eyebrow}
@@ -20,7 +20,7 @@ export default function PageBanner({
           {title}
         </Reveal>
         {description && (
-          <Reveal as="p" className="mt-4.5 text-[16.5px] text-paper/78 max-w-[600px] leading-relaxed">
+          <Reveal as="p" className="mt-4.5 text-[16.5px] text-paper/78 max-w-150 leading-relaxed">
             {description}
           </Reveal>
         )}
