@@ -44,9 +44,14 @@ export default function Button({
   type?: "button" | "submit";
 }) {
   const classes = `${base} ${sizes[size]} ${variants[variant]} ${className}`;
+  const isExternal = href?.startsWith("http");
 
   if (href) {
-    return (
+    return isExternal ? (
+      <a href={href} target="_blank" rel="noopener noreferrer" className={classes}>
+        {children}
+      </a>
+    ) : (
       <Link href={href} className={classes}>
         {children}
       </Link>

@@ -45,3 +45,22 @@ export function IconAudience() {
     </svg>
   );
 }
+
+export function IconCare() {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <path d="M5 8.5C5 5.5 7.5 4 9.5 4C11 4 12 4.8 12 6C12 4.8 13 4 14.5 4C16.5 4 19 5.5 19 8.5C19 13.5 12 19 12 19C12 19 5 13.5 5 8.5Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M8.5 9.5H10.5L11.5 7.5L13 11.5L14 9.5H15.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function IconResearch() {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <circle cx="10.5" cy="10.5" r="6" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M15.2 15.2L20 20" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M8 10.5H13M10.5 8V13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  );
+}

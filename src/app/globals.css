@@ -14,6 +14,16 @@
   --color-paper: #F6F1E4;
   --color-paper-dim: #EDE6D3;
   --color-leaf: #015430;
+
+  /* Soft pastel tints for pillar/programme cards */
+  --color-teal-pastel: #E6F0F0;
+  --color-teal-ring: #A2C8C8;
+  --color-green-pastel: #E1EAE6;
+  --color-green-ring: #8DB2A2;
+  --color-brown-pastel: #EDE8E6;
+  --color-brown-ring: #BCA7A2;
+  --color-sand-pastel: #FBF3F1;
+  --color-sand-ring: #F0D2C9;
 }
 
 @theme inline {
@@ -30,6 +40,14 @@
   --color-paper: var(--color-paper);
   --color-paper-dim: var(--color-paper-dim);
   --color-leaf: var(--color-leaf);
+  --color-teal-pastel: var(--color-teal-pastel);
+  --color-teal-ring: var(--color-teal-ring);
+  --color-green-pastel: var(--color-green-pastel);
+  --color-green-ring: var(--color-green-ring);
+  --color-brown-pastel: var(--color-brown-pastel);
+  --color-brown-ring: var(--color-brown-ring);
+  --color-sand-pastel: var(--color-sand-pastel);
+  --color-sand-ring: var(--color-sand-ring);
 
   --font-display: "Bricolage Grotesque", system-ui, sans-serif;
   --font-body: "Work Sans", system-ui, sans-serif;

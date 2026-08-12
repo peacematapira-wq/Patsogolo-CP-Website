@@ -1,35 +1,41 @@
 import Container from "@/components/ui/Container";
 import Reveal from "@/components/ui/Reveal";
 import Button from "@/components/ui/Button";
+import { site } from "@/data/site";
 
 export default function DonateBanner() {
   return (
-    <section className="pb-20">
-      <Container>
-        <Reveal
-          as="div"
-          className="relative overflow-hidden rounded-[24px] p-9 sm:p-14 text-paper bg-[linear-gradient(160deg,var(--color-clay)_0%,var(--color-clay-deep)_100%)]"
-        >
-          <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_88%_12%,rgba(221,154,136,0.3),transparent_50%)]" />
-          <div className="relative flex justify-between items-center gap-10 flex-wrap">
-            <div>
-              <div className="eyebrow text-sand mb-3">Help us reach the next child</div>
-              <h2 className="font-display font-bold text-[clamp(26px,3vw,36px)] leading-tight tracking-tight max-w-[480px]">
-                Your support keeps four clinics running.
-              </h2>
-              <p className="mt-3.5 text-paper/82 max-w-[440px] text-[15.5px] leading-relaxed">
-                Funding constraints have already forced us to cancel planned wheelchair provision for 11 children — your gift helps us close that gap.
-              </p>
-            </div>
-            <div className="flex gap-3.5 flex-wrap">
-              <Button href="/donate" variant="primary">
-                Donate now
-              </Button>
-              <Button href="/publications" variant="secondary">
-                Download our overview
-              </Button>
-            </div>
-          </div>
+    <section className="py-24 bg-lake-deep relative overflow-hidden">
+      <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_88%_15%,rgba(221,154,136,0.16),transparent_45%)]" />
+      <Container className="relative text-center">
+        {/* Memphis dots */}
+        <Reveal as="div" className="flex justify-center gap-3 mb-7 opacity-70">
+          {Array.from({ length: 7 }).map((_, i) => (
+            <span
+              key={i}
+              className="w-2 h-2 rounded-full"
+              style={{ background: i % 2 === 0 ? "var(--color-sand)" : "var(--color-paper)" }}
+            />
+          ))}
+        </Reveal>
+
+        <Reveal as="h2" className="font-display font-bold text-paper leading-tight mb-4 text-[clamp(28px,4.2vw,44px)] tracking-tight">
+          Together, we go further.
+        </Reveal>
+        <Reveal as="p" className="text-[16px] font-medium mb-10 text-paper/80 max-w-[560px] mx-auto leading-relaxed">
+          We&rsquo;re setting up how you can give directly, but funding constraints have already forced us to cancel planned wheelchair provision for 11 children. Whether you want to collaborate, follow our work, or simply learn more &mdash; every bit of support counts.
+        </Reveal>
+
+        <Reveal as="div" className="flex flex-wrap justify-center gap-4">
+          <Button href="/donate" variant="primary">
+            Donate &amp; Collaborate
+          </Button>
+          <Button href="/about" variant="secondary">
+            Read our story
+          </Button>
+          <Button href={site.instagramUrl} variant="secondary">
+            Follow our journey
+          </Button>
         </Reveal>
       </Container>
     </section>

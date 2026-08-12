@@ -68,8 +68,8 @@ export default function CommunityAwareness() {
 
         <Reveal as="div" className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {channels.map((c) => (
-            <div key={c.label} className="border-t border-paper/18 pt-6">
-              <div className="w-10 h-10 rounded-full bg-paper/8 text-sand flex items-center justify-center mb-4">
+            <div key={c.label} className="rounded-2xl border border-paper/12 bg-paper/5 p-6 hover:bg-paper/8 transition-colors">
+              <div className="w-11 h-11 rounded-xl bg-sand/15 text-sand flex items-center justify-center mb-4">
                 {c.icon}
               </div>
               <div className="flex items-baseline gap-2 mb-2">
