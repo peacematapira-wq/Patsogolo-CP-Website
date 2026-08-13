@@ -26,7 +26,7 @@ export const team: TeamMember[] = [
     name: "Alpheus Njewa",
     role: "Secretary & Rehabilitation Technician",
     bio: "Supports organisational administration alongside hands-on rehabilitation technician work.",
-    photo: "/images/team/alpheus-njewa.jpg",
+    photo: "/images/team/alpheus-njewa.jpeg",
   },
   {
     initials: "LC",
