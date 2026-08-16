@@ -47,7 +47,7 @@ export default function MissionStrip() {
             Patsogolo CP Foundation is a multidisciplinary programme built on the ICF framework.
           </p>
           <p className="text-[16px] text-ink/72 leading-relaxed mb-8">
-            Our interdisciplinary team of physiotherapists, nutritionists and community health workers works alongside caregivers &mdash; not around them &mdash; because lasting progress happens when families are part of the plan.
+            Our interdisciplinary team of physiotherapists, nutritionists and community health workers works alongside caregivers to improve the qiality of life and create a long-lasting impact where families are part of the plan.
           </p>
           <div className="flex flex-wrap gap-2.5 mb-8">
             {tags.map((tag) => (

@@ -15,7 +15,7 @@ const miniStats = [
 export default function Hero() {
   return (
     <>
-      <section className="relative overflow-hidden text-paper pt-[150px] pb-[70px] bg-[radial-gradient(140%_100%_at_15%_0%,var(--color-lake-deep)_0%,#013b23_55%,#012a19_100%)]">
+      <section className="relative overflow-hidden text-paper pt-37.5 pb-17.5 bg-[radial-gradient(140%_100%_at_15%_0%,var(--color-lake-deep)_0%,#013b23_55%,#012a19_100%)]">
         {/* Background illustration layer — blended into the gradient, not a foreground photo */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute right-0 top-0 h-full w-full sm:w-[64%]">
@@ -28,8 +28,8 @@ export default function Hero() {
             />
           </div>
           {/* Blend gradients so the illustration reads as texture, not a photo card */}
-          <div className="absolute inset-0 bg-gradient-to-r from-lake-deep via-lake-deep/55 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#012a19]" />
+          <div className="absolute inset-0 bg-linear-to-r from-lake-deep via-lake-deep/55 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-b from-transparent via-transparent to-[#012a19]" />
         </div>
 
         {/* Decorative blurred shapes */}
@@ -48,7 +48,7 @@ export default function Hero() {
         </div>
 
         <Container className="relative">
-          <div className="max-w-[720px]">
+          <div className="max-w-180">
             <Reveal
               as="div"
               className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-[11px] font-mono font-medium mb-6 tracking-wider uppercase bg-paper/10 border border-paper/20 text-sand"
@@ -61,8 +61,8 @@ export default function Hero() {
               Care that walks <em className="italic text-sun-soft font-medium">alongside</em> every child with cerebral palsy.
             </Reveal>
 
-            <Reveal as="p" className="text-left sm:text-justify text-[17px] text-paper/82 max-w-[620px] mt-5 leading-relaxed">
-              What began in 2022 as a single physiotherapy clinic at Malawi Children&rsquo;s Village is now a four-site, multidisciplinary foundation &mdash; combining clinical care, awareness and advocacy, health-worker training and research so that no child in Mangochi is left behind.
+            <Reveal as="p" className="text-left sm:text-justify text-[17px] text-paper/82 max-w-155 mt-5 leading-relaxed">
+              What began in 2022 as a single physiotherapy clinic at Malawi Children&rsquo;s Village is now a four-site, multidisciplinary foundation combining clinical care, awareness and advocacy, health-worker training and research so that no child in Mangochi is left behind.
             </Reveal>
 
             <Reveal as="div" className="flex gap-4 mt-8 flex-wrap items-center">

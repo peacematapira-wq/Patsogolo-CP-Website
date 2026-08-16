@@ -47,6 +47,6 @@ export const team: TeamMember[] = [
     name: "Mercy Mgawi",
     role: "Dramaplay Coordinator & Health Education",
     bio: "Coordinates our caregiver-led dramaplay group and leads health education sessions for caregivers.",
-    photo: "/images/team/mercy-mgawi.jpg",
+    photo: "/images/team/mercy-mgawi.jpeg",
   },
 ];
