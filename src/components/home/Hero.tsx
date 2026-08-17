@@ -74,7 +74,7 @@ export default function Hero() {
               </Button>
             </Reveal>
 
-            <Reveal as="div" className="grid grid-cols-2 sm:grid-cols-4 gap-x-8 gap-y-7 mt-12 max-w-[680px]">
+            <Reveal as="div" className="grid grid-cols-2 sm:grid-cols-4 gap-x-8 gap-y-7 mt-12 max-w-170">
               {miniStats.map((s) => (
                 <div key={s.l} className="flex items-center gap-3">
                   <div className="w-9 h-9 rounded-full bg-paper/10 border border-paper/20 text-sand flex items-center justify-center shrink-0">

@@ -19,7 +19,7 @@ export const team: TeamMember[] = [
     name: "Alinafe Chisulanda",
     role: "Director & Physiotherapist",
     bio: "Leads the foundation while continuing to deliver physiotherapy care across our clinic sites.",
-    photo: "/images/team/alinafe-chisulanda.jpg",
+    photo: "/images/team/alinafe-chisulanda.jpeg",
   },
   {
     initials: "AN",
