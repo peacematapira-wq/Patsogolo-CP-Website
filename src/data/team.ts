@@ -16,7 +16,7 @@ export const team: TeamMember[] = [
   },
   {
     initials: "AC",
-    name: "Alinafe Chisulanda",
+    name: "Alinafe Chisalunda",
     role: "Director & Physiotherapist",
     bio: "Leads the foundation while continuing to deliver physiotherapy care across our clinic sites.",
     photo: "/images/team/alinafe-chisulanda.jpeg",
@@ -33,7 +33,7 @@ export const team: TeamMember[] = [
     name: "Lara Chikuse",
     role: "Nutritionist",
     bio: "Nutrition screening and feeding support for children across our clinic sites.",
-    photo: "/images/team/lara-chikuse.jpg",
+    photo: "/images/team/lara-chikuse.JPG",
   },
   {
     initials: "PM",
