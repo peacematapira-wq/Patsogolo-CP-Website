@@ -18,7 +18,7 @@ export const downloadablePublications: Publication[] = [
     fileSize: "754 KB",
     href: "/resources/historical-growth-summary.pdf",
     downloadName: "Patsogolo-CP-Foundation-Historical-Growth-Summary.pdf",
-    coverImage: "/images/publications/historical-growth-summary-cover.PNG",
+    coverImage: "/images/publications/historical-growth-summary-cover.png",
   },
   {
     title: "Our Programme Pillars",
@@ -28,7 +28,7 @@ export const downloadablePublications: Publication[] = [
     fileSize: "785 KB",
     href: "/resources/programme-pillars.pdf",
     downloadName: "Patsogolo-CP-Foundation-Programme-Pillars.pdf",
-    coverImage: "/images/publications/programme-pillars-cover.PNG",
+    coverImage: "/images/publications/programme-pillars-cover.png",
   },
   {
     title: "CP Cookbook — Safe Feeding Manual",
@@ -38,7 +38,7 @@ export const downloadablePublications: Publication[] = [
     fileSize: "4 MB",
     href: "/resources/cp-cookbook.pdf",
     downloadName: "Patsogolo-CP-Foundation-CP-Cookbook.pdf",
-    coverImage: "/images/publications/cp-cookbook-cover.PNG",
+    coverImage: "/images/publications/cp-cookbook-cover.png",
   },
 ];
 
