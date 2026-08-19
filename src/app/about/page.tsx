@@ -7,11 +7,19 @@ import PageBanner from "@/components/ui/PageBanner";
 import SectionHead from "@/components/ui/SectionHead";
 import Reveal from "@/components/ui/Reveal";
 import PathTimeline from "@/components/ui/PathTimeline";
+import { IconPulse, IconNutrition, IconAlert, IconTrendUp } from "@/components/ui/StatIcons";
 import { originStory, impactStats } from "@/data/timeline";
 
 const clinicPhotos = [
-  { src: "/images/clinic-1.jpg", alt: "One of Patsogolo CP Foundation's clinic sites in Mangochi District" },
-  { src: "/images/clinic-2.jpg", alt: "One of Patsogolo CP Foundation's clinic sites in Mangochi District" },
+  { src: "/images/clinic-1.JPG", alt: "One of Patsogolo CP Foundation's clinic sites in Mangochi District" },
+  { src: "/images/clinic-2.JPG", alt: "One of Patsogolo CP Foundation's clinic sites in Mangochi District" },
+];
+
+const statStyle = [
+  { icon: IconPulse, bg: "bg-teal-pastel", ring: "ring-teal-ring/40", text: "text-lake" },
+  { icon: IconNutrition, bg: "bg-sand-pastel", ring: "ring-sand-ring/50", text: "text-clay" },
+  { icon: IconAlert, bg: "bg-brown-pastel", ring: "ring-brown-ring/40", text: "text-clay-deep" },
+  { icon: IconTrendUp, bg: "bg-green-pastel", ring: "ring-green-ring/40", text: "text-lake-deep" },
 ];
 
 export const metadata: Metadata = { title: "About Us — Patsogolo CP Foundation" };
@@ -102,13 +110,23 @@ export default function AboutPage() {
             title="The numbers that made the case for change."
             description="These figures, gathered by the end of 2023, are the reason Patsogolo's care model looks the way it does today."
           />
-          <Reveal as="div" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-black/10 border border-black/10 rounded-2xl overflow-hidden">
-            {impactStats.map((s) => (
-              <div key={s.label} className="bg-paper p-8 text-left">
-                <div className="font-mono text-[36px] text-lake font-medium leading-none">{s.num}</div>
-                <div className="text-[13px] text-ink/65 mt-2.5 leading-relaxed">{s.label}</div>
-              </div>
-            ))}
+          <Reveal as="div" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {impactStats.map((s, i) => {
+              const style = statStyle[i];
+              const Icon = style.icon;
+              return (
+                <div
+                  key={s.label}
+                  className="group rounded-2xl p-7 bg-white border border-black/8 shadow-[0_1px_3px_rgba(0,0,0,0.05)] hover:-translate-y-1.5 hover:shadow-[0_16px_32px_rgba(22,35,31,0.1)] transition-all duration-300"
+                >
+                  <div className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-5 ring-2 transition-transform group-hover:scale-105 ${style.bg} ${style.ring} ${style.text}`}>
+                    <Icon />
+                  </div>
+                  <div className="font-mono text-[34px] text-ink font-medium leading-none mb-3">{s.num}</div>
+                  <div className="text-[13.5px] text-ink/62 leading-relaxed">{s.label}</div>
+                </div>
+              );
+            })}
           </Reveal>
         </Container>
       </section>

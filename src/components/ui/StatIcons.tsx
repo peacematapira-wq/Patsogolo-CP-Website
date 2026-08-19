@@ -64,3 +64,40 @@ export function IconResearch() {
     </svg>
   );
 }
+
+export function IconPulse() {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M6.5 12H9.5L11 9L13 15L14.5 12H17.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function IconNutrition() {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <path d="M4.5 11H19.5C19.5 15.5 16.5 19 12 19C7.5 19 4.5 15.5 4.5 11Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M9 8C9 6.5 10 5 12 5C13.5 5 14.5 5.8 14.5 5.8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function IconAlert() {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <path d="M12 4L21 19H3L12 4Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M12 10.5V14" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <circle cx="12" cy="16.5" r="0.9" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function IconTrendUp() {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <path d="M4 16L9.5 10.5L13.5 14.5L20 8" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M15 8H20V13" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
