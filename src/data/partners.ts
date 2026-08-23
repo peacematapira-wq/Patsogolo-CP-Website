@@ -2,57 +2,74 @@ export type Partner = {
   name: string;
   type: string;
   description: string;
+  category: "Clinical & Research Partners" | "Community & Capacity Partners" | "Funding & Governance Partners";
 };
 
 export const partners: Partner[] = [
+  // Clinical & Research Partners
   {
-    name: "Enablement Foundation",
-    type: "Governance & funding",
-    description: "Partner foundation supporting governance, with our Board Chair also serving Enablement.",
+    name: "Queen Elizabeth Central Hospital",
+    type: "Referral & Research Hospital",
+    description:
+      "Referral hospital and collaboration hospital for multicentre studies such as our EDACS validation, and for improving nutrition care within the hospital setting.",
+    category: "Clinical & Research Partners",
+  },
+  {
+    name: "Kamuzu Central Hospital",
+    type: "Research Hospital",
+    description: "Collaboration hospital for research.",
+    category: "Clinical & Research Partners",
   },
   {
     name: "KUHES",
-    type: "Academic & clinical",
-    description: "Kamuzu University of Health Sciences — founding member of the Neuro-Developmental Disorders Network.",
+    type: "Academic Collaboration",
+    description: "Close collaboration with the Family Medicine Department at Kamuzu University of Health Sciences.",
+    category: "Clinical & Research Partners",
   },
-  {
-    name: "Queen Elizabeth Central Hospital",
-    type: "Clinical",
-    description: "Referral hospital partner for specialised training and our modified feeding utensils programme.",
-  },
-  {
-    name: "Zomba Central Hospital",
-    type: "Clinical",
-    description: "Network partner in Malawi's Neuro-Developmental Disorders Network.",
-  },
+
+  // Community & Capacity Partners
   {
     name: "Fount for Nations",
-    type: "Network partner",
-    description: "Founding member of the Neuro-Developmental Disorders Network.",
-  },
-  {
-    name: "MAP",
-    type: "Assistive devices",
-    description: "Trains local artisans to build and maintain assistive devices, strengthening local production capacity.",
+    type: "Advocacy Partner",
+    description: "Close collaboration on advocacy work.",
+    category: "Community & Capacity Partners",
   },
   {
     name: "Together Act Now",
-    type: "Advocacy training",
-    description: "Trained our twelve-member caregiver dramaplay group in performance-based advocacy.",
+    type: "Training Partner",
+    description: "Training and collaboration in developing new drama plays with our caregiver dramaplay group.",
+    category: "Community & Capacity Partners",
   },
   {
     name: "Tiyende Pamodzi",
-    type: "Outreach",
-    description: "Partner organisation extending our specialised clinical training and outreach.",
+    type: "CBR Partner",
+    description: "Partner organisation providing community-based rehabilitation (CBR) care in Mangochi District.",
+    category: "Community & Capacity Partners",
+  },
+  {
+    name: "MAP",
+    type: "Assistive Devices",
+    description: "Trains local artisans to build and maintain assistive devices, strengthening local production capacity.",
+    category: "Community & Capacity Partners",
+  },
+
+  // Funding & Governance Partners
+  {
+    name: "Enablement Foundation",
+    type: "Partner & Funding Organisation",
+    description: "Partner organisation and funding organisation supporting Patsogolo CP Foundation's work in Mangochi District.",
+    category: "Funding & Governance Partners",
   },
   {
     name: "Dossan Trust",
-    type: "Funding",
+    type: "Funding Partner",
     description: "Donor supporting our work amid ongoing funding constraints.",
+    category: "Funding & Governance Partners",
   },
   {
     name: "Wilde Ganzen",
-    type: "Capacity building",
-    description: "Provided fundraising training to strengthen our long-term sustainability.",
+    type: "Funding Partner",
+    description: "Funding partner supporting our programmes, including fundraising training for our team.",
+    category: "Funding & Governance Partners",
   },
 ];

@@ -101,3 +101,25 @@ export function IconTrendUp() {
     </svg>
   );
 }
+
+export function IconHospital() {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <path d="M5 21V6.5L12 3L19 6.5V21" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M3 21H21" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M12 8V14M9 11H15" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M9 21V17H15V21" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function IconHandshake() {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <path d="M2.5 12.5L6 9L9.5 11.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M21.5 12.5L18 9L14.5 11.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M9.5 11.5L11 13L9.3 14.7C8.8 15.2 8.8 16 9.3 16.5C9.8 17 10.6 17 11.1 16.5L11.8 15.8" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M14.5 11.5L13 13L14.7 14.7C15.2 15.2 15.2 16 14.7 16.5C14.2 17 13.4 17 12.9 16.5L12 15.6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}

@@ -8,13 +8,6 @@ export type TeamMember = {
 
 export const team: TeamMember[] = [
   {
-    initials: "BM",
-    name: "Bente van der Meijden",
-    role: "PhD · Medical Doctor & Project Coordinator",
-    bio: "Coordinates project delivery and brings clinical medical expertise to our multidisciplinary model.",
-    photo: "/images/team/bente-van-der-meijden.JPG",
-  },
-  {
     initials: "AC",
     name: "Alinafe Chisalunda",
     role: "Director & Physiotherapist",
@@ -27,6 +20,13 @@ export const team: TeamMember[] = [
     role: "Secretary & Rehabilitation Technician",
     bio: "Supports organisational administration alongside hands-on rehabilitation technician work.",
     photo: "/images/team/alpheus-njewa.jpeg",
+  },
+  {
+    initials: "BM",
+    name: "Bente van der Meijden",
+    role: "PhD · Medical Doctor & Project Coordinator",
+    bio: "Coordinates project delivery and brings clinical medical expertise to our multidisciplinary model.",
+    photo: "/images/team/bente-van-der-meijden.JPG",
   },
   {
     initials: "LC",

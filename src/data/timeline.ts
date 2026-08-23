@@ -48,7 +48,7 @@ export const originStory = [
     year: "2023",
     title: "The multidisciplinary pilot",
     description:
-      "Baseline data tells the story plainly: 42% of children had epilepsy, 40% moderate-to-severe malnutrition, and 92.2% were wasted — 35 times the national average wasting prevalence. Integrated care follows — attendance rises 59%.",
+      "Baseline data tells the story plainly: 42% of children had epilepsy, 40% moderate-to-severe malnutrition, and 92.2% were stunted — 35 times the national average stunting prevalence. Integrated care follows — attendance rises 59%.",
   },
   {
     year: "2026",
@@ -61,6 +61,6 @@ export const originStory = [
 export const impactStats = [
   { num: "42%", label: "of children in care also have epilepsy, often never before medically managed" },
   { num: "40%", label: "have moderate-to-severe malnutrition — more than double the rate in Mangochi's general child population" },
-  { num: "92.2%", label: "of children in our care are wasted — 35 times the national average wasting prevalence" },
+  { num: "92.2%", label: "of children in our care in 2022-2023 were stunted — 35 times the national average stunting prevalence" },
   { num: "59%", label: "rise in clinic attendance after the shift to integrated, multidisciplinary care" },
 ];
