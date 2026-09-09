@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Container from "@/components/ui/Container";
 import PageBanner from "@/components/ui/PageBanner";
 import Reveal from "@/components/ui/Reveal";
@@ -6,6 +7,11 @@ import { IconHospital, IconAudience, IconHandshake } from "@/components/ui/StatI
 import { partners, type Partner } from "@/data/partners";
 
 export const metadata: Metadata = { title: "Partners — Patsogolo CP Foundation" };
+
+// Page is pending partner sign-off before going live — flip to true to re-enable
+// (also re-add "Partners" to navItems in src/data/site.ts and to the footer link list
+// in src/components/layout/Footer.tsx).
+const PARTNERS_PAGE_ENABLED = false;
 
 const categoryMeta: Record<
   Partner["category"],
@@ -41,6 +47,9 @@ const categoryOrder: Partner["category"][] = [
 ];
 
 export default function PartnersPage() {
+  if (!PARTNERS_PAGE_ENABLED) notFound();
+
+
   return (
     <>
       <PageBanner
