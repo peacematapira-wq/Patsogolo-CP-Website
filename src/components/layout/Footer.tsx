@@ -41,7 +41,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-2.5">
               {[
                 ["Gallery", "/gallery"],
-                ["Team", "/team"],
+                ["Partners", "/partners"],
                 ["Publications", "/publications"],
                 ["Donate", "/donate"],
               ].map(([label, href]) => (

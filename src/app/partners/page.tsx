@@ -11,7 +11,7 @@ export const metadata: Metadata = { title: "Partners — Patsogolo CP Foundation
 // Page is pending partner sign-off before going live — flip to true to re-enable
 // (also re-add "Partners" to navItems in src/data/site.ts and to the footer link list
 // in src/components/layout/Footer.tsx).
-const PARTNERS_PAGE_ENABLED = false;
+const PARTNERS_PAGE_ENABLED = true;
 
 const categoryMeta: Record<
   Partner["category"],
